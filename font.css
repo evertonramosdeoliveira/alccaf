@@ -15,7 +15,7 @@ h3 {
     line-height: 31px;
 }
 p {
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-family: Arial,helvetica-condensed-black Neue,helvetica-condensed-black,sans-serif;
     font-size: 16px;
     font-style: normal;
     font-variant: normal;
@@ -41,7 +41,7 @@ pre {
 /* MENU BAR PESRSON FONT _________________________________________________ */
 
 .h2-menu-doe {
-    font-family: Helvetica;
+    font-family: helvetica-condensed-black;
     font-size: 19px;
     font-style: normal;
     font-variant: normal;
@@ -70,9 +70,9 @@ pre {
 }
 
 @font-face {
-    font-family: 'Helvetica';
-    src: url("./Helvetica.eot");
-    src: local('Helvetica'), url("./Helvetica.woff") format('woff'), url("./Helvetica.ttf") format('truetype');
+    font-family: 'helvetica-condensed-black';
+    src: url("./helvetica-condensed-black.eot");
+    src: local('helvetica-condensed-black'), url("./helvetica-condensed-black.woff") format('woff'), url("./helvetica-condensed-black.ttf") format('truetype');
 }
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_79748">Text with this font applied</p> */
 .fontsforweb_fontid_79748 {
@@ -137,7 +137,7 @@ h4 {
 
 /* integrantes_______________________________________________*/
 .integrantes {
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-family: Arial,helvetica-condensed-black Neue,helvetica-condensed-black,sans-serif;
     font-size: 21px;
     font-style: normal;
     font-variant: normal;
