@@ -15,7 +15,7 @@ h3 {
     line-height: 31px;
 }
 p {
-    font-family: Arial,helvetica-condensed-black Neue,helvetica-condensed-black,sans-serif;
+    font-family: Arial,helvetica-neue-condensed-bold Neue,helvetica-neue-condensed-bold,sans-serif;
     font-size: 16px;
     font-style: normal;
     font-variant: normal;
@@ -41,7 +41,7 @@ pre {
 /* MENU BAR PESRSON FONT _________________________________________________ */
 
 .h2-menu-doe {
-    font-family: helvetica-condensed-black;
+    font-family: helvetica-neue-condensed-bold;
     font-size: 19px;
     font-style: normal;
     font-variant: normal;
@@ -69,11 +69,24 @@ pre {
     src: local('CircularStdBold'), url("./CircularStdBold.woff") format('woff'), url("./CircularStdBold.ttf") format('truetype');
 }
 
+
 @font-face {
-    font-family: 'helvetica-condensed-black';
-    src: url("./helvetica-condensed-black.eot");
-    src: local('helvetica-condensed-black'), url("./helvetica-condensed-black.woff") format('woff'), url("./helvetica-condensed-black.ttf") format('truetype');
+    font-family: 'helvetica-neue-condensed-bold';
+    src: local('helvetica-neue-condensed-bold')
+    src: url("helvetica-neue-condensed-bold.eot");
+    /* IE9*/
+    src:url("helvetica-neue-condensed-bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("helvetica-neue-condensed-bold.woff2") format("woff2"),
+    /* chrome firefox */
+    url("helvetica-neue-condensed-bold.woff") format("woff"),
+    /* chrome firefox */
+    url("helvetica-neue-condensed-bold.ttf") format("truetype"),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url( "helvetica-neue-condensed-bold.svg#Helvetica Neue") format("svg"))
+    /* iOS 4.1- */
 }
+
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_79748">Text with this font applied</p> */
 .fontsforweb_fontid_79748 {
     font-family: 'CircularStdBold' !important;
@@ -137,7 +150,7 @@ h4 {
 
 /* integrantes_______________________________________________*/
 .integrantes {
-    font-family: Arial,helvetica-condensed-black Neue,helvetica-condensed-black,sans-serif;
+    font-family: Arial,helvetica-neue-condensed-bold Neue,helvetica-neue-condensed-bold,sans-serif;
     font-size: 21px;
     font-style: normal;
     font-variant: normal;
