@@ -164,3 +164,22 @@ h4 {
     font-weight: 400;
     line-height: 16.8px;
 }
+/*OBSTACULO*/
+
+.h3-obstaculo {
+    font-family: 'helvetica-neue-condensed-bold';
+    font-size: 31px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+mark {
+    background: #000000;
+    color: #3691a3;
+}
+.mark-obstaculo {
+    background: #000000 ;
+    color: #4c97a6;
+}
