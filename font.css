@@ -91,7 +91,7 @@ pre {
     /* chrome firefox */
     url("./helvetica-neue-condensed-bold.ttf") format("truetype"),
     /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url( "./helvetica-neue-condensed-bold.svg#Helvetica Neue") format("svg")
+     url("./helvetica-neue-condensed-bold.svg#Helvetica Neue") format("svg");
 }
 
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_79748">Text with this font applied</p> */
@@ -180,6 +180,6 @@ mark {
     color: #3691a3;
 }
 .mark-obstaculo {
-    background: #000000 ;
+    background: #000000;
     color: #4c97a6;
 }
