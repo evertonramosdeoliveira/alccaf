@@ -16,7 +16,7 @@ h3 {
 }
 p {
     font-family: Arial,helvetica-neue-condensed-bold Neue,helvetica-neue-condensed-bold,sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-variant: normal;
     font-weight: 400;
@@ -107,7 +107,7 @@ pre {
     line-height: 17.1px;
 }
 
-.h3-fontsforweb_fontid_79748 {
+.CircularStdBold {
     font-family: 'CircularStdBold' !important;
     font-size: 31px;
     font-style: normal;
