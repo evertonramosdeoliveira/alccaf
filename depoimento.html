@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="images/adesivo.png"/>
+
+        <title>Depoimento - Paciente de Oncologia Viviane Felix Serrano</title>
+        <script
+            defer="defer"
+            type="text/javascript"
+            src="depoimento/credit-tag-white-2.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            /****************************************/
+            body,
+            html {
+                margin: 0;
+                background-color: #101010;
+                font-family: sans-serif;
+            }
+
+            .slideshow {
+                width: 100%;
+                height: 100%;
+                border: 0;
+                padding: 0;
+                margin: 0 auto;
+                background-color: #000;
+                overflow: hidden;
+            }
+
+            input {
+                display: none;
+            }
+            input:checked + .slide {
+                transform: translateX(0px);
+                transition: transform 0.5s ease-in-out;
+            }
+            input:checked + .slide .slide__content {
+                width: 100%;
+                display: block;
+            }
+
+            .slide {
+                transform: translateX(-100%);
+                position: absolute;
+                width: 50%;
+                height: 100%;
+                background-size: 50% 100%;
+                transition: transform 0.5s ease-in-out;
+            }
+            .slide__content {
+                box-sizing: border-box;
+                height: calc(100% - 60px);
+                overflow: auto;
+                padding: 50px;
+                color: #DDD;
+                position: absolute;
+                left: 100%;
+                display: none;
+                animation-name: fade-in;
+                animation-duration: 1s;
+                animation-iteration-count: 1;
+                opacity: 1;
+            }
+            .slide:nth-child(3) {
+                background: url("");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+            }
+            .slide:nth-child(3):after {
+                position: absolute;
+                margin: auto;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100px;
+            }
+            .slide:nth-child(6) {
+                background: url("");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+            }
+            .slide:nth-child(6):after {
+                position: absolute;
+                margin: auto;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100px;
+            }
+            .slide:nth-child(9) {
+                background: url("");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+            }
+            .slide:nth-child(9):after {
+                position: absolute;
+                margin: auto;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100px;
+            }
+            .slide:nth-child(12) {
+                background: url("");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+            }
+            .slide:nth-child(12):after {
+                position: absolute;
+                margin: auto;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100px;
+            }
+            .slide:nth-child(15) {
+                background: url("");
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+            }
+            .slide:nth-child(15):after {
+                position: absolute;
+                margin: auto;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100px;
+            }
+
+            label {
+                box-sizing: border-box;
+                color: #AAA;
+                font-weight: bold;
+                display: block;
+                width: calc((50% / 5) - 2%);
+                margin: 5px 1%;
+                height: 50px;
+                line-height: 50px;
+                border-bottom: solid 4px #AAA;
+                text-align: center;
+                position: absolute;
+                bottom: 5px;
+                text-transform: uppercase;
+            }
+            label:hover {
+                cursor: pointer;
+                color: #FFF;
+                border-bottom: solid 4px #FFF;
+            }
+            label:nth-child(1) {
+                left: calc(50% + (0 * (50% / 5)));
+                border-bottom-color: #7eb8c2;
+            }
+            label:nth-child(4) {
+                left: calc(50% + (1 * (50% / 5)));
+                border-bottom-color: #53a0ae;
+            }
+            label:nth-child(7) {
+                left: calc(50% + (2 * (50% / 5)));
+                border-bottom-color: #386d77;
+            }
+            label:nth-child(10) {
+                left: calc(50% + (3 * (50% / 5)));
+                border-bottom-color: #326169;
+            }
+            label:nth-child(13) {
+                left: calc(50% + (4 * (50% / 5)));
+                border-bottom-color: #2b555c;
+            }
+
+            @keyframes fade-in {
+                0% {
+                    opacity: 0;
+                }
+                50% {
+                    transform: translateY(-50px);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateY(0px);
+                    opacity: 1;
+                }
+            }
+        </style>
+        <script>
+            window.console = window.console || function (t) {};
+        </script>
+        <script>
+            if (document.location.search.match(/type=embed/gi)) {
+                window
+                    .parent
+                    .postMessage("resize", "*");
+            }
+        </script>
+    </head>
+    <body translate="no">
+        <fieldset class="slideshow">
+
+            <label class="slide-button" for="slideCheckbox1">Depoimento</label>
+            <input type="radio" id="slideCheckbox1" name="slide" checked="checked"></input>
+            <div class="slide">
+                <div class="slide__content">
+                    <h3>Depoimento - Paciente de Oncologia Viviane Felix Serrano</h3>
+                    <p>Meu nome é Viviane ,Tenho 44 anos ,moro em Barueri,casada,mãe e avó.</p>
+                    <p>Essa hitória começou em 01/08/2011.Nessa época eu estava fazendo um
+                        tratamento hormonal,pois estava com cisto hemorrágico desde de abril do mesmo
+                        ano,antes do tratamento hormonal havia feito outros tratamentos para conter a
+                        hemorragia e nenhum deles havia dado resultado.</p>
+
+                    <p>Dois meses fazendo tratamento hormonal até que no dia 01 de agosto ,senti uma
+                        dor muito forte em minha mama direita,havia algo estranho nela a principio não
+                        me preocupou muito pois havia feito mamografia no mês de abril e nada constava
+                        ,porém a dor era insuportável que atingia também meu braço direito a ponto de
+                        ficar imovel.</p>
+                    <p>Fui até o Pronto Socorro . Ao ser consultada o médico disse que o que estava
+                        acontecendo poderia ser devido ao tratamento hormonal que eu estava
+                        submetida,que me receitaria um remédio para dor ,mas que eu voltasse ao meu
+                        ginecologista.No mesmo dia voltei ao ginecologista,na qual pediu exames de
+                        emergência.</p>
+                </div>
+            </div>
+
+            <label class="slide-button" for="slideCheckbox2">BI-RADS 5</label>
+            <input type="radio" id="slideCheckbox2" name="slide"></input>
+            <div class="slide">
+                <div class="slide__content">
+                    <h1>BI-RADS 5</h1>
+                    <p>O mesmo foi repetido por mais duas vezes ,a minha suspeita ainda estava no
+                        tratamento hormonal. Concluido o exame fui informa que havia uma alteração neles
+                        e que era para eu voltar no dia seguinte para passar com o
+                        mastologista.Concluido o exame fui informa que havia uma alteração neles e que
+                        era para eu voltar no dia seguinte para passar com o mastologista.Preocupada e
+                        com muitas dores voltei para casa.</p>
+                    <p>Na quarta-feira 03/08/2011 voltei ao hospital para a consulta com o
+                        mastologista. Além da mamografia fiz também a USG o que para minha surpresa
+                        contou um nodulo de 3 cm com resultado de BI-RADS 5. Assustada, com
+                        dor,desesperada ,angustiada e com medo fui encaminhada para o Sírio Libânes. A
+                        categoria BI-RADS 5 é representada por lesões cujo resultado
+                        anatomopatológico,salvo exceções,é o de carcinoma de mama.</p>
+                    <p>Nessa categoria,mais do que 95% das lesôes representam câncer de mama,e os
+                        achados radiológicos são característicos das descrições clássica do câncer de
+                        mama.Massa especuladas,irregulares,de alta densidade, ou massas especuladas de
+                        alta densidade associadas a micro calcificações pleomórfica,ou calcificações
+                        lineares finas dispostas num segmento ou linearmente estão incluídas na
+                        categoria BI-RADS 5.</p>
+
+                </div>
+            </div>
+
+            <label class="slide-button" for="slideCheckbox3">o fim</label>
+            <input type="radio" id="slideCheckbox3" name="slide"></input>
+            <div class="slide">
+                <div class="slide__content">
+                    <h1>que seria para mim o fim</h1>
+
+                    <p>Após ouvir do médico que eu estava com câncer de mama ,o chão que eu havia
+                        pisado antes de entrar no consultorio parecia não mais existir, toda minha vida
+                        tinha se acabado,chorei muito,pensava no meu esposo,filhos,netos,minha mãe
+                        (falecida),enfim passou um filme na minha cabeça de toda uma vida construida com
+                        muito sacríficio e luta e uma familia linda, que eu poderia peder tudo para uma
+                        doença as vezes silenciosa outras vezes nem tanto, que seria para mim o fim.</p>
+                    <p>Mas em nenhum momento eu perguntei a Deus o porque EU,ou até mesmo blasfemei
+                        o nome dele,muito pelo contrário.</p>
+                    <p>Passado o momento de tristeza e dor eu agradeçi a Deus por estar viva para
+                        lutar e lutar bravamente ,pois ali estava começando uma nova fase em minha vida
+                        e de todos os meu familiares.</p>
+                    <p>Disse a Deus apenas que eu estava nas mãos dele e que fosse feita a vontade
+                        dele em minha vida e não a minha. Que se fosse aquela a minha hora de ir para
+                        junto dele ,que eu iria em paz. E que se fosse para eu ficar que o senhor me
+                        desse sabedoria e coragem para lutar. Confiei apenas,conversei com minha
+                        familia,ergui minha cabeça e fui a luta. Luta essa que havia apenas começado .
+                        Mas com Deus no controle de tudo eu iria vencer. E assim tenho lutado todos os
+                        dias da minha vida .</p>
+                </div>
+            </div>
+
+            <label class="slide-button" for="slideCheckbox4">Agradeço</label>
+            <input type="radio" id="slideCheckbox4" name="slide"></input>
+            <div class="slide">
+                <div class="slide__content">
+                    <h1>Agradeço</h1>
+                    <p>Agradeço a Deus todos os dias por estar viva e dizer a todos " Nunca Percam a
+                        Fé.é ela que nos da forças e coragem para lutar. A cada dia que vivo,mais me
+                        convenço de que o desperdício da vida está no amor que não damos,nas forças que
+                        não usamos,na prudência egoísta que nada arrisca e que esquivando-nos do
+                        sofrimento,perdemos também a felicidade.</p>
+                </div>
+            </div>
+
+            <label class="slide-button" for="slideCheckbox5">RECOMEÇO</label>
+            <input type="radio" id="slideCheckbox5" name="slide"></input>
+            <div class="slide">
+                <div class="slide__content">
+                    <h1>Não acrescente dias a sua vida, mas vida aos seus dias</h1>
+                    <h2>O Câncer em minha vida
+                    </h2>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube-nocookie.com/embed/msriUONn97U?controls=0"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen="allowfullscreen"></iframe>
+                        <p>Assista o video - O Câncer em minha vida por Viviane Felix Serrano</p>
+                </div>
+            </div>
+
+        </fieldset>
+    </body>
+</html>
