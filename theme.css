@@ -74,8 +74,88 @@
     border-color: #3e7a84 !important;
 }
 
-/* VIVIANE COLOR_______________________________ */ 
+/* VIVIANE COLOR_______________________________ */
 .viviane-cor {
     color: #fff !important;
     background-color: #a6007a !important;
+}
+.w3-theme-l5viviane-cor {
+    color: #000 !important;
+    background-color: #fff0f7 !important;
+}
+.w3-theme-l4viviane-cor {
+    color: #000 !important;
+    background-color: #ffcce6 !important;
+}
+.w3-theme-l3viviane-cor {
+    color: #000 !important;
+    background-color: #ff99cc !important;
+}
+.w3-theme-l2viviane-cor {
+    color: #fff !important;
+    background-color: #ff66b3 !important;
+}
+.w3-theme-l1viviane-cor {
+    color: #fff !important;
+    background-color: #ff3399 !important;
+}
+.w3-theme-d1viviane-cor {
+    color: #fff !important;
+    background-color: #e60073 !important;
+}
+.w3-theme-d2viviane-cor {
+    color: #fff !important;
+    background-color: #cc0066 !important;
+}
+.w3-theme-d3viviane-cor {
+    color: #fff !important;
+    background-color: #b30059 !important;
+}
+.w3-theme-d4viviane-cor {
+    color: #fff !important;
+    background-color: #99004d !important;
+}
+.w3-theme-d5viviane-cor {
+    color: #fff !important;
+    background-color: #800040 !important;
+}
+
+.w3-theme-lightviviane-cor {
+    color: #000 !important;
+    background-color: #fff0f7 !important;
+}
+.w3-theme-darkviviane-cor {
+    color: #fff !important;
+    background-color: #800040 !important;
+}
+.w3-theme-actionviviane-cor {
+    color: #fff !important;
+    background-color: #800040 !important;
+}
+
+.w3-themeviviane-cor {
+    color: #fff !important;
+    background-color: #ff0080 !important;
+}
+.w3-text-themeviviane-cor {
+    color: #ff0080 !important;
+}
+.w3-border-themeviviane-cor {
+    border-color: #ff0080 !important;
+}
+
+.w3-hover-themeviviane-cor:hover {
+    color: #fff !important;
+    background-color: #ff0080 !important;
+}
+.w3-hover-text-themeviviane-cor:hover {
+    color: #ff0080 !important;
+}
+.w3-hover-border-themeviviane-cor:hover {
+    border-color: #ff0080 !important;
+}
+
+.w3-themeviviane-cor-hls {
+    color: #000000 !important;
+    background-color: hsla(330, 100%, 80%, 0.5) !important;
 }
